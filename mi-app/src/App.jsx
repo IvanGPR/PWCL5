@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import Juguete from './components/Juguete'
+import BarraNavegador from './components/barraNavegador'
+import Juguete from './components/juguete'
 import { juguetes } from './data/juguetes'
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
                         dark:bg-fondo-oscuro dark:text-texto-oscuro
                         transition-colors duration-300">
 
-            <Navbar />
+            <BarraNavegador />
 
             <main className="grow">
 
