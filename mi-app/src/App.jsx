@@ -1,6 +1,6 @@
-import BarraNavegador from './components/barraNavegador'
-import Juguete from './components/juguete'
-import { juguetes } from './data/juguetes'
+import BarraNavegador from './components/barraNavegador.jsx'
+import Juguete from './components/juguete.jsx'
+import { juguetes } from './data/juguetes.js'
 
 export default function App() {
 
